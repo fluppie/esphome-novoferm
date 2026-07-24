@@ -55,8 +55,10 @@ sensor:
 ## Hardware (W-600)
 
 5V-logica op de mini-USB-poort → levelshifter (bv. BSS138) verplicht.
-9600 baud 8N1. Zie de protocoldocumentatie voor frame-opbouw,
-statuswaarden en valkuilen (echo-mode, duty-limiet 3 cycli/uur).
+9600 baud 8N1. Zie **[PROTOCOL.md](PROTOCOL.md)** voor de volledige
+gereverse-engineerde protocoldocumentatie: frame-opbouw, complete
+registerkaart, statuswaarden en valkuilen (echo-mode, dummy_receiver,
+duty-limiet 3 cycli/uur).
 
 ## Licentie
 
